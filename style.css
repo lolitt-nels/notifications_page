@@ -52,8 +52,11 @@
    font-size: 18px;
   }
   .single-box{
+    padding: 17px;
+    margin: 12px;
     background-color: hsl(210, 60%, 98%);
     border-radius: 10px;
+    display: flex;
   }
   .avatar img{
     width: 50px;
@@ -90,17 +93,21 @@ span.dot{
     font-size: 16px;
     margin: 13px 0px;
     border-radius: 5px;
-    margin-left: 70px;
+    margin-left: 40px;
   }
   .left{
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   .box-text{
     margin-right: auto;
   }
   .single-box.comment{
     justify-content: space-between;
+  }
+  .single-box.unseen{
+    background-color: hsl(210, 60%, 98%) ;
   }
   .img-box img{
     width: 50px;
