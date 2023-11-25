@@ -11,7 +11,7 @@
   }
   .container{
     max-width: 860px;
-  margin: 80px auto;
+    margin: 80px auto;
   }
   .wrapper{
     background-color: #ffff;
@@ -93,7 +93,7 @@ span.dot{
     font-size: 16px;
     margin: 13px 0px;
     border-radius: 5px;
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .left{
     display: flex;
@@ -118,4 +118,65 @@ span.dot{
   .time{
     padding:7px 0px;
   }
+  @media screen and (max-width: 767px) {
+    body{
+      font-size: 14px;
+    }
+    .top-bar{
+      flex-direction: row;
+    }
+    .container {
+       max-width: 100%;
+       margin:0px;   
+    }
+   
+    .wrapper {
+       padding: 27px 20px;
+       margin: 0px;
+    }
+   
+    .single-box {
+       flex-direction: row;
+
+    }
+   
+    .avatar img {
+       width: 40px;
+       margin-bottom: 10px;
+    }
+    .single-box.comment{
+      flex-direction: row;
+      font-size: 12px;
+    }
+    .message {
+       margin-left: 30px;
+       font-size: 14px;
+       margin:13px 0px;
+    }
+    a.post{
+      font-size: 12p;
+    }
+    .img-box img{
+      max-width:100%;
+
+    }
+    p.notifi{
+      font-size: 12px;
+      padding-right:5px;
+    }
+   }
+
+/* For tablets */
+/*@media screen and (min-width: 768px) and (max-width: 1023px) {
   
+}
+
+/* For large tablets and desktops */
+/*@media screen and (min-width: 1024px) {
+  .main {
+      flex-direction: row;
+  }
+  .card {
+      flex: 50%;
+  }
+}*/
