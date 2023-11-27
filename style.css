@@ -124,6 +124,13 @@ span.dot{
     }
     .top-bar{
       flex-direction: row;
+      justify-content: space-between;
+    }
+    p.title-txt{
+      font-size: 25px;
+    }
+    a.read{
+      font-size: 16px;
     }
     .container {
        max-width: 100%;
@@ -165,18 +172,35 @@ span.dot{
       padding-right:5px;
     }
    }
-
-/* For tablets */
-/*@media screen and (min-width: 768px) and (max-width: 1023px) {
-  
-}
-
-/* For large tablets and desktops */
-/*@media screen and (min-width: 1024px) {
-  .main {
+   @media screen and (max-width: 320px){
+    .top-bar{
       flex-direction: row;
+      justify-content: space-between;
+    }
+    p.title-text{
+      font-size: 18px;
+   }
+   .title{
+     margin-left: -5px;
+   }
+   a.read{
+     font-size: 12px;
+   } 
+   p.num{
+     padding: 3px 10px;
+   }
   }
-  .card {
-      flex: 50%;
-  }
-}*/
+ @media screen and (max-width: 375px) {
+  p.title-text{
+    font-size: 20px;
+ }
+ .title{
+   margin-left: -5px;
+ }
+ a.read{
+   font-size: 14px;
+ } 
+ p.num{
+   padding: 3px 10px;
+ }
+ }
