@@ -118,6 +118,36 @@ span.dot{
   .time{
     padding:7px 0px;
   }
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  .inpute{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: hsl(209, 43%, 64%);
+    color: white;
+    padding: 2px 2px;
+    border: hsl(219, 25%, 39%);
+    cursor: pointer;
+    position :relative;
+    border-radius: 5px;
+    max-width: 30%;
+    margin-left: 35%;
+  }
+  
+  button:hover {
+    background-color: hsl(209, 43%, 64%);
+  }
   @media screen and (max-width: 767px) {
     body{
       font-size: 14px;
